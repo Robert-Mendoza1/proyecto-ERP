@@ -1,10 +1,7 @@
 from utils.helpers import borrar_pantalla, esperar_tecla
 
 # Datos de ejemplo (en producción usaría una base de datos)
-productos = [
-    {"id": 1, "nombre": "Arroz 1kg", "categoria": "Abarrotes", "stock": 150, "precio": 2.50},
-    {"id": 2, "nombre": "Leche 1L", "categoria": "Lácteos", "stock": 80, "precio": 3.20}
-]
+productos = []
 
 def menu():
     while True:

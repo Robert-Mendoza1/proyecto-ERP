@@ -3,12 +3,10 @@ from datetime import datetime
 
 # Datos de ejemplo (en producción usar DB)
 ordenes_compra = []
-proveedores = [
-    {"id": 1, "nombre": "Distribuidora Alimentos S.A.", "contacto": "Juan Pérez", "telefono": "987654321"},
-    {"id": 2, "nombre": "Bebidas del Norte", "contacto": "María Gómez", "telefono": "912345678"}
-]
+proveedores = []
 
 def menu():
+    borrar_pantalla()
     while True:
         borrar_pantalla()
         print("\n" + "="*50)

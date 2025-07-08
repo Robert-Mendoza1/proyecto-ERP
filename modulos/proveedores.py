@@ -4,20 +4,6 @@ import csv
 
 # Estructura de datos
 proveedores = [
-    {
-        "id": 1,
-        "razon_social": "Distribuidora Alimentos S.A.",
-        "contacto": "Juan Pérez",
-        "telefono": "987654321",
-        "email": "ventas@dalimentos.com",
-        "categoria": "Alimentos",
-        "productos_suministrados": ["Arroz", "Aceite", "Conservas"],
-        "condiciones_pago": "30 días",
-        "rating": 4.5,
-        "ultima_compra": "2023-11-15",
-        "compras_totales": 12,
-        "monto_total": 18450.00
-    }
 ]
 
 def menu():
